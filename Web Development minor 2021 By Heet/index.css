@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Pacifico&family=Zen+Dots&display=swap');
+
+h1{
+    font-family: 'Bangers';
+    font-size: 90px;
+    color: purple;
+    letter-spacing: 9px;
+}
+
+h2{
+    font-family: 'Bangers';
+    background-color:rgba(80, 180, 142, 0.45);
+    text-align: center;
+    font-size: 50px;
+    background-size: cover;
+
+}
+
+h3{
+    background-color:rgba(173, 187, 43, 0.9);
+    color: purple;
+    background-position-x: center;
+    text-align: left;
+    background-size:cover;
+    font-family: 'Orbitron';
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: rgba(0,0,0,.8);
+}
+
+
+
+img{
+    display: block;
+    max-width: 460px;
+    max-height: 190px;
+    width: auto;
+    height: auto;
+    border: darkgray;
+    border-radius: 2%;
+    box-sizing: 10px;
+}
+
+
+hr { 
+    display: block;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: red;
+}
+
+.collapes li:hover{
+    background-color: lightgray;
+}
+
+.box{
+    position: relative;
+    background-color: rgba(94, 187, 190, 0.452);
+    padding:50px;
+    border: rgb(12, 133, 72);
+    border-width: 70px;
+    max-width: 460px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.7);
+
+}
+
+footer{
+    place-content: bottom;
+}
